@@ -4,7 +4,7 @@ function Instalaciones() {
   return (
     <div>
       <h2 className="mt-5 text-white text-3xl md:text-5xl font-black text-center drop-shadow-lg italic mb-8 uppercase tracking-tighter">
-        Locales <span className="text-indigo-500">cercanos</span>
+        Nuestras <span className="text-indigo-500">instalaciones</span>
       </h2>
 
       {/* BLOQUE 1: PARQUE DE BOLAS */}
@@ -16,7 +16,7 @@ function Instalaciones() {
           }}
         >
           <h3 className="text-white text-3xl font-black italic uppercase">
-            Kids Zone
+            Zona para los niños
           </h3>
         </div>
         <div className="w-[50%] h-150 flex flex-col items-end justify-center p-10">
@@ -40,7 +40,7 @@ function Instalaciones() {
         <div className="w-[50%] h-150 flex flex-col items-start justify-center p-10 text-center text-right">
           <div className="bg-black/40 p-8 border-indigo-500 text-left max-w-md shadow-2xl backdrop-blur-sm">
             <h4 className="text-indigo-500 text-2xl font-black uppercase italic mb-4">
-              Pet Friendly
+              Zona para los perros
             </h4>
             <p className="text-white text-lg">
               Tu mejor amigo es bienvenido. Contamos con espacios adaptados para
@@ -55,7 +55,7 @@ function Instalaciones() {
           }}
         >
           <h3 className="text-white text-3xl font-black italic uppercase">
-            Espacio Amigo
+            Zona para los perros
           </h3>
         </div>
       </div>
@@ -94,7 +94,7 @@ function Instalaciones() {
         <div className="w-[50%] h-150 flex flex-col items-start justify-center p-10 text-center">
           <div className="bg-black/40 p-8 border-indigo-500 text-left max-w-md shadow-2xl backdrop-blur-sm">
             <h4 className="text-indigo-500 text-2xl font-black uppercase italic mb-4">
-              Cocktail Bar
+              La barra
             </h4>
             <p className="text-white text-lg">
               Nuestra barra es el alma del local, donde preparamos tus mezclas
@@ -109,7 +109,7 @@ function Instalaciones() {
           }}
         >
           <h3 className="text-white text-3xl font-black italic uppercase">
-            The Bar
+            Interior
           </h3>
         </div>
       </div>
