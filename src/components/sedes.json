@@ -1,0 +1,59 @@
+{
+  "sedes": [
+    {
+      "id": 1,
+      "nombre": "Casa Sergio - Matriz Cierzo",
+      "ciudad": "Zaragoza",
+      "direccion": "Paseo de la Independencia, 10",
+      "coordenadas": {
+        "latitud": 41.6523,
+        "longitud": -0.8814
+      },
+      "descripcion": "Nuestra sede fundacional. Un refugio futurista donde el calor del hogar se mezcla con la vanguardia del espacio."
+    },
+    {
+      "id": 2,
+      "nombre": "Casa Sergio - Puerto Estelar",
+      "ciudad": "Valencia",
+      "direccion": "Marina de Valencia, s/n",
+      "coordenadas": {
+        "latitud": 39.4699,
+        "longitud": -0.3763
+      },
+      "descripcion": "Sabores del Mediterráneo elevados a la décima potencia en un entorno acristalado frente al mar."
+    },
+    {
+      "id": 3,
+      "nombre": "Casa Sergio - Domo Central",
+      "ciudad": "Madrid",
+      "direccion": "Gran Vía, 28",
+      "coordenadas": {
+        "latitud": 40.4168,
+        "longitud": -3.7038
+      },
+      "descripcion": "La experiencia gastronómica más frenética y cosmopolita en el corazón latente de la península."
+    },
+    {
+      "id": 4,
+      "nombre": "Casa Sergio - Faro Galáctico",
+      "ciudad": "A Coruña",
+      "direccion": "Paseo Marítimo, 1",
+      "coordenadas": {
+        "latitud": 43.3623,
+        "longitud": -8.4115
+      },
+      "descripcion": "Un rincón místico en el norte donde los productos del océano se preparan con técnicas de otro planeta."
+    },
+    {
+      "id": 5,
+      "nombre": "Casa Sergio - Oasis Nebulosa",
+      "ciudad": "Sevilla",
+      "direccion": "Plaza de la Encarnación, s/n",
+      "coordenadas": {
+        "latitud": 37.3891,
+        "longitud": -5.9845
+      },
+      "descripcion": "Donde la tradición andaluza se encuentra con la tecnología bajo el cielo estrellado del sur."
+    }
+  ]
+}

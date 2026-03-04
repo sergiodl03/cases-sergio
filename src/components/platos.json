@@ -1,0 +1,138 @@
+
+{
+  "picar": [
+    {
+      "nombre": "Patatas Bravas Galácticas",
+      "precio": "6.50€",
+      "descripcion": "Triple cocción con salsa de chiles de Marte y espuma de alioli lunar.",
+      "imagen": "https://images.unsplash.com/photo-1573014133075-3293112a9741?w=600"
+    },
+    {
+      "nombre": "Croquetas de Saturno",
+      "precio": "8.50€",
+      "descripcion": "Rellenas de jamón ibérico con anillos de cebolla crujiente y emulsión de trufa.",
+      "imagen": "https://images.unsplash.com/photo-1562967914-608f82629710?w=600"
+    },
+    {
+      "nombre": "Nachos de la Nebulosa",
+      "precio": "9.50€",
+      "descripcion": "Totopos de maíz azul con chili de carne estelar, guacamole y queso fundido.",
+      "imagen": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=600"
+    },
+    {
+      "nombre": "Calamares en Órbita",
+      "precio": "11.00€",
+      "descripcion": "A la romana con un toque de lima y mayonesa de tinta de calamar.",
+      "imagen": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600"
+    }
+  ],
+  "platos": [
+    {
+      "nombre": "Risotto de Júpiter",
+      "precio": "14.50€",
+      "descripcion": "Arroz cremoso con setas del bosque oscuro, parmesano y lluvia de polvo de oro.",
+      "imagen": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600"
+    },
+    {
+      "nombre": "Entrecot de Marte",
+      "precio": "19.00€",
+      "descripcion": "300g de carne madurada a la brasa con sal volcánica y pimientos del padrón.",
+      "imagen": "https://images.unsplash.com/photo-1546241072-48010ad2862c?w=600"
+    },
+    {
+      "nombre": "Salmón Supernova",
+      "precio": "16.50€",
+      "descripcion": "Salmón marinado en soja y miel sobre cama de espárragos y puré de guisantes.",
+      "imagen": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600"
+    },
+    {
+      "nombre": "Pasta Agujero Negro",
+      "precio": "13.00€",
+      "descripcion": "Tagliatelle al nero di seppia con gambas al ajillo y tomates cherry.",
+      "imagen": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600"
+    },
+    {
+      "nombre": "Hamburguesa Interestelar",
+      "precio": "14.00€",
+      "descripcion": "Vaca vieja, queso cheddar fundido, bacon crujiente y cebolla caramelizada.",
+      "imagen": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600"
+    }
+  ],
+  "postres": [
+    {
+      "nombre": "Tarta de Queso Lunar",
+      "precio": "6.00€",
+      "descripcion": "Textura cremosa con base de galleta de meteorito y coulis de frutos rojos.",
+      "imagen": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600"
+    },
+    {
+      "nombre": "Coulant Agujero Negro",
+      "precio": "7.00€",
+      "descripcion": "Bizcocho de chocolate fundido con helado de vainilla de Madagascar.",
+      "imagen": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=600"
+    },
+    {
+      "nombre": "Mousse de Vía Láctea",
+      "precio": "5.50€",
+      "descripcion": "Tres texturas de chocolate: blanco, leche y negro puro al 70%.",
+      "imagen": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600"
+    },
+    {
+      "nombre": "Fruta de la Galaxia",
+      "precio": "5.00€",
+      "descripcion": "Selección de frutas de temporada con un toque de menta y lima.",
+      "imagen": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?w=600"
+    }
+  ],
+  "especialidades": [
+    {
+      "nombre": "Meteorito de Carbón",
+      "precio": "12.00€",
+      "descripcion": "Buñuelos de bacalao tempurizados con tinta de calamar para un negro mate profundo.",
+      "tipo": "Para Picar",
+      "imagen": "buñuelos.jpg"
+    },
+    {
+      "nombre": "Nebulosa de Humo y Nitrógeno",
+      "precio": "18.00€",
+      "descripcion": "Ceviche de pez mantequilla que cambia de color según el pH.",
+      "tipo": "Principal",
+      "imagen": "nebulosa.jpg"
+    },
+    {
+      "nombre": "Esfera Interestelar",
+      "precio": "9.50€",
+      "descripcion": "Chocolate blanco pintado con aerógrafo en tonos púrpuras y magentas.",
+      "tipo": "Postre",
+      "imagen": "esferas.jpg"
+    },
+    {
+    "nombre": "Anillos de Saturno",
+    "precio": "10.00€",
+    "descripcion": "Calamares en tempura con emulsión de yuzu solar.",
+    "tipo": "Para Picar",
+    "imagen": "anillos.webp" 
+    },
+    {
+      "nombre": "Explosión Supernova",
+      "precio": "21.00€",
+      "descripcion": "Tataki de atún rojo con sésamo negro y reducción de frutos del bosque ácidos.",
+      "tipo": "Principal",
+      "imagen": "supernova.jpg"
+    },
+    {
+      "nombre": "Pulpo Galáctico",
+      "precio": "19.50€",
+      "descripcion": "Pata de pulpo a la brasa sobre espuma de patata violeta y aceite de pimentón de la Vera.",
+      "tipo": "Principal",
+      "imagen": "pulpo.jpg"
+    },
+    {
+      "nombre": "Núcleo de Júpiter",
+      "precio": "8.50€",
+      "descripcion": "Coulant de chocolate con centro líquido de caramelo salado y helado de estela de vainilla.",
+      "tipo": "Postre",
+      "imagen": "nucleo.jpg"
+    }
+  ]
+}
