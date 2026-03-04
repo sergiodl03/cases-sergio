@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Carta from './pages/Carta';
 import Reservar from './pages/Reservar';
 import CercaDeTi from './pages/CercaDeTi';
+import Instalaciones from './pages/Instalaciones';
 
 function App() {
 
@@ -14,6 +15,7 @@ const misEnlaces = [
 { label: 'Home', url: '/' },
 { label: 'Carta', url: '/carta' },
 { label: 'Cerca De Ti', url: '/cercaDeTi' },
+{ label: 'Instalaciones', url: '/instalaciones' },
 { label: 'Reservar', url: '/reservar' }
 
 ];
@@ -28,6 +30,7 @@ return (
 <Route path="/carta" element={<Carta />} />
 <Route path="/reservar" element={<Reservar />} />
 <Route path="/cercaDeTi" element={<CercaDeTi />} />
+<Route path="/instalaciones" element={<Instalaciones />} />
 {/* Ruta para error 404 (opcional) */}
 <Route path="*" element={<h1>404 - Página no encontrada</h1>} />
 </Routes>
