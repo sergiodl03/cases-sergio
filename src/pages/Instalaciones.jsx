@@ -12,7 +12,7 @@ function Instalaciones() {
         <div
           className="w-[50%] bg-cover bg-center h-150 flex items-center justify-center text-center p-4"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/parqueBolas.avif")`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("/guarderia.avif")`,
           }}
         >
           <h3 className="text-white text-3xl font-black italic uppercase">
@@ -51,7 +51,7 @@ function Instalaciones() {
         <div
           className="w-[50%] bg-cover bg-center h-150 flex items-center justify-center text-center p-4"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/perros.avif")`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("/perros1.avif")`,
           }}
         >
           <h3 className="text-white text-3xl font-black italic uppercase">
@@ -67,7 +67,7 @@ function Instalaciones() {
         <div
           className="w-[50%] bg-cover bg-center h-150 flex items-center justify-center text-center p-4"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/terraza.avif")`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("/terraza.avif")`,
           }}
         >
           <h3 className="text-white text-3xl font-black italic uppercase">
@@ -97,7 +97,7 @@ function Instalaciones() {
               La barra
             </h4>
             <p className="text-white text-lg">
-              Nuestra barra es el alma del local, donde preparamos tus mezclas
+              Nuestra barra es el alma del local, donde preparamos tus bebidas
               favoritas al momento.
             </p>
           </div>
@@ -105,7 +105,7 @@ function Instalaciones() {
         <div
           className="w-[50%] bg-cover bg-center h-150 flex items-center justify-center text-center p-4"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/barra.avif")`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("/barra.avif")`,
           }}
         >
           <h3 className="text-white text-3xl font-black italic uppercase">
