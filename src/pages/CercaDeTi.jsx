@@ -47,17 +47,20 @@ function CercaDeTi() {
         // Ubicación por defecto (Zaragoza) si el usuario deniega el permiso
         setCoordinates([41.6488, -0.8891]);
         setLoading(false);
-      }
+      },
     );
   }, []);
 
-  // Pantalla de carga mejorada (Estética espacial)
+  // Pantalla de carga mejorada (CAMBIO PARA COMPROBAR VERCEL)
   if (loading) {
     return (
-      <div className="w-full h-screen bg-slate-950 flex flex-col items-center justify-center space-y-4">
-        <div className="w-12 h-12 border-4 border-indigo-500 border-t-transparent rounded-full animate-spin"></div>
-        <p className="text-indigo-400 font-medium animate-pulse tracking-widest uppercase text-sm">
-          Rastreando señal GPS...
+      <div className="w-full h-screen bg-black flex flex-col items-center justify-center space-y-4">
+        <div className="w-16 h-16 border-8 border-yellow-400 border-t-transparent rounded-full animate-spin"></div>
+        <h1 className="text-yellow-400 text-3xl font-black animate-bounce tracking-tighter">
+          🚀 ¡VERSIÓN ACTUALIZADA! 🚀
+        </h1>
+        <p className="text-white font-medium animate-pulse tracking-widest uppercase text-sm">
+          Buscando coordenadas de Sergio...
         </p>
       </div>
     );
@@ -71,13 +74,13 @@ function CercaDeTi() {
         coordinates[0],
         coordinates[1],
         a.coordenadas.latitud,
-        a.coordenadas.longitud
+        a.coordenadas.longitud,
       );
       const distB = calcularDistancia(
         coordinates[0],
         coordinates[1],
         b.coordenadas.latitud,
-        b.coordenadas.longitud
+        b.coordenadas.longitud,
       );
       return distA - distB;
     });
@@ -104,7 +107,7 @@ function CercaDeTi() {
                 Estás aquí
               </Tooltip>
             </Marker>
-            
+
             {/* Marcadores de las Sedes */}
             {sedes.map((sede) => (
               <Marker
@@ -135,7 +138,7 @@ function CercaDeTi() {
                   coordinates[0],
                   coordinates[1],
                   sede.coordenadas.latitud,
-                  sede.coordenadas.longitud
+                  sede.coordenadas.longitud,
                 ).toFixed(1)
               : null;
 
@@ -149,7 +152,7 @@ function CercaDeTi() {
                     A {km} km
                   </span>
                 )}
-                
+
                 <div>
                   <h3 className="text-xl font-bold text-white group-hover:text-indigo-400 transition-colors pr-16">
                     {index + 1}. {sede.nombre}
@@ -169,7 +172,7 @@ function CercaDeTi() {
                   onClick={() =>
                     window.open(
                       `https://www.google.com/maps/dir/?api=1&destination=${sede.coordenadas.latitud},${sede.coordenadas.longitud}`,
-                      "_blank"
+                      "_blank",
                     )
                   }
                   className="mt-6 w-full bg-indigo-600 hover:bg-indigo-500 text-white py-3 rounded-xl font-bold transition-all transform active:scale-95 shadow-lg shadow-indigo-600/20"
