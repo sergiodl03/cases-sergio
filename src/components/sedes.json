@@ -54,6 +54,17 @@
         "longitud": -5.9845
       },
       "descripcion": "Donde la tradición andaluza se encuentra con la tecnología bajo el cielo estrellado del sur."
-    }
+    },
+    {
+  "id": 6,
+  "nombre": "Casa Sergio - Terminal Marítima",
+  "ciudad": "Barcelona",
+  "direccion": "Carrer de la Marina, 19",
+  "coordenadas": {
+    "latitud": 41.3888,
+    "longitud": 2.1934
+  },
+  "descripcion": "Un nexo de unión entre el cosmos y el Mediterráneo. Arquitectura de cristal y sabores que orbitan alrededor del puerto."
+}
   ]
 }
