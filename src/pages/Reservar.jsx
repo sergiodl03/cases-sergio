@@ -8,14 +8,18 @@ function Reservar() {
     fecha: "",
     hora: "",
     personas: "1",
+    comentario: "",
+    horaExacta: "",
   });
 
   const hoy = new Date().toISOString().split("T")[0];
 
   useEffect(() => {
-    const reservas = JSON.parse(localStorage.getItem("misReservas"))|| [];
-    if(reservas){
-      const reservaFiltradas = reservas.filter((reserva) => reserva.fecha >= hoy)
+    const reservas = JSON.parse(localStorage.getItem("misReservas")) || [];
+    if (reservas) {
+      const reservaFiltradas = reservas.filter(
+        (reserva) => reserva.fecha >= hoy,
+      );
       localStorage.setItem("misReservas", JSON.stringify(reservaFiltradas));
     }
   }, []);
@@ -29,12 +33,12 @@ function Reservar() {
     e.preventDefault();
 
     const reservasActuales =
-    JSON.parse(localStorage.getItem("misReservas")) || [];
+      JSON.parse(localStorage.getItem("misReservas")) || [];
 
     const yaEstaOcupado = reservasActuales.some(
       (reserva) =>
         reserva.fecha === datosFormulario.fecha &&
-        reserva.hora === datosFormulario.hora,
+        reserva.horaExacta === datosFormulario.horaExacta,
     );
 
     if (yaEstaOcupado) {
@@ -61,7 +65,55 @@ function Reservar() {
       telefono: "",
       fecha: "",
       hora: "",
+      comentario: "",
+      horaExacta: "",
     });
+  };
+
+  const renderOpcionesHora = () => {
+    if (datosFormulario.hora === "mediodia") {
+      return (
+        <div className="flex flex-col gap-2 mt-4 animate-fade-in">
+          <label className="text-sm font-semibold text-gray-400">
+            Selecciona hora de Comida:
+          </label>
+          <select
+            required
+            name="horaExacta"
+            onChange={handleChange}
+            className="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-white"
+          >
+            <option value="">Elige hora...</option>
+            <option value="13:30">13:30</option>
+            <option value="14:00">14:00</option>
+            <option value="14:30">14:30</option>
+          </select>
+        </div>
+      );
+    }
+
+    if (datosFormulario.hora === "noche") {
+      return (
+        <div className="flex flex-col gap-2 mt-4 animate-fade-in">
+          <label className="text-sm font-semibold text-gray-400">
+            Selecciona hora de Cena:
+          </label>
+          <select
+            required
+            name="horaExacta"
+            onChange={handleChange}
+            className="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 text-white"
+          >
+            <option value="">Elige hora...</option>
+            <option value="20:30">20:30</option>
+            <option value="21:00">21:00</option>
+            <option value="21:30">21:30</option>
+          </select>
+        </div>
+      );
+    }
+
+    return null; // Si no hay nada seleccionado, no pintamos nada
   };
 
   return (
@@ -80,6 +132,7 @@ function Reservar() {
               Nombre:
             </label>
             <input
+              required
               type="text"
               id="nombre"
               name="nombre"
@@ -97,6 +150,7 @@ function Reservar() {
               Apellidos:
             </label>
             <input
+              required
               type="text"
               id="apellidos"
               name="apellidos"
@@ -116,6 +170,7 @@ function Reservar() {
               Email:
             </label>
             <input
+              required
               type="email"
               id="email"
               name="email"
@@ -133,6 +188,7 @@ function Reservar() {
               Teléfono:
             </label>
             <input
+              required
               type="text"
               id="telefono"
               name="telefono"
@@ -143,7 +199,7 @@ function Reservar() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-white">
           {/* Fecha */}
           <div className="flex flex-col gap-2">
             <label
@@ -153,6 +209,7 @@ function Reservar() {
               Fecha:
             </label>
             <input
+              required
               type="date"
               id="fecha"
               name="fecha"
@@ -169,16 +226,21 @@ function Reservar() {
               htmlFor="hora"
               className="text-sm font-semibold text-gray-400"
             >
-              Hora:
+              Mediodia o Noche:
             </label>
-            <input
-              type="time"
+            <select
+              required
               id="hora"
               name="hora"
               value={datosFormulario.hora}
               onChange={handleChange}
-              className="bg-gray-800 border border-gray-700 rounded-lg p-3 text-white outline-none [color-scheme:dark]"
-            />
+              className="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 outline-none appearance-none cursor-pointer"
+            >
+              <option>Elige una opcion</option>
+              <option value="mediodia">Mediodia</option>
+              <option value="noche">Noche</option>
+            </select>
+            {renderOpcionesHora()}
           </div>
         </div>
 
@@ -191,11 +253,12 @@ function Reservar() {
               Nº de Comensales:
             </label>
             <select
+              required
               id="personas"
               name="personas"
               value={datosFormulario.personas}
               onChange={handleChange}
-              className="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 focus:ring-2 focus:ring-orange-500 outline-none appearance-none cursor-pointer"
+              className="w-full bg-gray-800 border border-gray-700 rounded-lg p-3 outline-none appearance-none cursor-pointer"
             >
               <option value="1">1 Persona</option>
               <option value="2">2 Personas</option>
@@ -204,8 +267,21 @@ function Reservar() {
               <option value="5">5+ Personas</option>
             </select>
           </div>
-
-          <div className="flex flex-col gap-2"></div>
+          <div className="flex flex-col gap-2">
+            <label
+              htmlFor="comentario"
+              className="text-sm font-semibold text-gray-400"
+            >
+              Alguna información extra (alergias o intolerancias):
+            </label>
+            <textarea
+              id="comentario"
+              name="comentario"
+              value={datosFormulario.comentario}
+              onChange={handleChange}
+              className="bg-gray-800 h-12.5 border border-gray-700 rounded-lg p-3 text-white outline-none [color-scheme:dark]"
+            />
+          </div>
         </div>
 
         {/* Botón de Enviar */}
