@@ -1,0 +1,39 @@
+{
+  "navbar": {
+    "inicio": "Home",
+    "carta": "Menu",
+    "cerca de ti": "Location",
+    "instalaciones": "Facilities",
+    "reservar": "Book Now"
+  },
+  "home": {
+    "inicio": "Casa Sergio: an experience out of this world",
+    "70": "70% Milky Way",
+    "30": "30% Terrestrial",
+    "especialidades": "These are the house specialties"
+  },
+  "instalaciones": {
+    "titulo1": "Our",
+    "titulo2": "Facilities",
+    "ninos1": "Kids' Zone",
+    "ninos2": "Safe Fun",
+    "ninos3": "A space designed for the little ones to enjoy while you relax.",
+    "perros1": "Dog-Friendly Area",
+    "perros2": "Pet Zone",
+    "perros3": "Your best friend is welcome. We have adapted spaces so they don't have to stay home.",
+    "exterior1": "Outdoor",
+    "exterior2": "The Terrace",
+    "exterior3": "An open-air atmosphere perfect for enjoying the sun or starry nights.",
+    "interior1": "Indoor",
+    "interior2": "The Bar",
+    "interior3": "Our bar is the heart of the place, where we prepare your favorite drinks right on the spot."
+  },
+  "categorias": {
+  "picar": "To Share",
+  "platos": "Main Courses",
+  "postres": "Desserts",
+  "especialidades": "Specials"
+}
+}
+  
+  

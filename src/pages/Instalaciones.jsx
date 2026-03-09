@@ -1,10 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Instalaciones() {
+  const { t, i18n } = useTranslation();
   return (
     <div>
       <h2 className="mt-5 text-white text-3xl md:text-5xl font-black text-center drop-shadow-lg italic mb-8 uppercase tracking-tighter">
-        Nuestras <span className="text-indigo-500">instalaciones</span>
+        {t("instalaciones.titulo1")} <span className="text-indigo-500">{t("instalaciones.titulo2")}</span>
       </h2>
 
       {/* BLOQUE 1: PARQUE DE BOLAS */}
@@ -16,18 +18,17 @@ function Instalaciones() {
           }}
         >
           <h3 className="text-white text-3xl font-black italic uppercase">
-            Zona para los niños
+           {t("instalaciones.ninos1")}
           </h3>
         </div>
         <div className="w-[50%] h-150 flex flex-col items-end justify-center p-10">
           {/* El div hijo con fondo oscuro y alineación a la derecha */}
           <div className="bg-black/40 p-8 border-indigo-500 text-right max-w-md shadow-2xl backdrop-blur-sm">
             <h4 className="text-indigo-500 text-2xl font-black uppercase italic mb-4">
-              Diversión Segura
+              {t("instalaciones.ninos2")}
             </h4>
             <p className="text-white text-lg">
-              Un espacio diseñado para que los más pequeños disfruten mientras
-              tú te relajas.
+              {t("instalaciones.ninos3")}
             </p>
           </div>
         </div>
@@ -40,11 +41,10 @@ function Instalaciones() {
         <div className="w-[50%] h-150 flex flex-col items-start justify-center p-10 text-center text-right">
           <div className="bg-black/40 p-8 border-indigo-500 text-left max-w-md shadow-2xl backdrop-blur-sm">
             <h4 className="text-indigo-500 text-2xl font-black uppercase italic mb-4">
-              Zona para los perros
+              {t("instalaciones.perros2")}
             </h4>
             <p className="text-white text-lg">
-              Tu mejor amigo es bienvenido. Contamos con espacios adaptados para
-              que no se quede en casa.
+              {t("instalaciones.perros3")}
             </p>
           </div>
         </div>
@@ -55,7 +55,7 @@ function Instalaciones() {
           }}
         >
           <h3 className="text-white text-3xl font-black italic uppercase">
-            Zona para los perros
+            {t("instalaciones.perros1")}
           </h3>
         </div>
       </div>
@@ -71,17 +71,16 @@ function Instalaciones() {
           }}
         >
           <h3 className="text-white text-3xl font-black italic uppercase">
-            Exterior
+            {t("instalaciones.exterior1")}
           </h3>
         </div>
         <div className="w-[50%] h-150 flex flex-col items-end justify-center p-10 text-center">
           <div className="bg-black/40 p-8 border-indigo-500 text-right max-w-md shadow-2xl backdrop-blur-sm">
             <h4 className="text-indigo-500 text-2xl font-black uppercase italic mb-4">
-              La Terraza
+              {t("instalaciones.exterior2")}
             </h4>
             <p className="text-white text-lg">
-              Ambiente al aire libre ideal para disfrutar del sol o de las
-              noches estrelladas.
+              {t("instalaciones.exterior3")}
             </p>
           </div>
         </div>
@@ -94,11 +93,10 @@ function Instalaciones() {
         <div className="w-[50%] h-150 flex flex-col items-start justify-center p-10 text-center">
           <div className="bg-black/40 p-8 border-indigo-500 text-left max-w-md shadow-2xl backdrop-blur-sm">
             <h4 className="text-indigo-500 text-2xl font-black uppercase italic mb-4">
-              La barra
+              {t("instalaciones.interior2")}
             </h4>
             <p className="text-white text-lg">
-              Nuestra barra es el alma del local, donde preparamos tus bebidas
-              favoritas al momento.
+              {t("instalaciones.interior3")}
             </p>
           </div>
         </div>
@@ -109,7 +107,7 @@ function Instalaciones() {
           }}
         >
           <h3 className="text-white text-3xl font-black italic uppercase">
-            Interior
+            {t("instalaciones.interior1")}
           </h3>
         </div>
       </div>

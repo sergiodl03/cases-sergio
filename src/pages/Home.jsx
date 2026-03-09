@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 import Espacio from "../assets/galaxia.webp";
 import Card from "../components/Card";
-import datosPlatos from "../components/platos.json";
 
 function Home() {
+  const { t, i18n } = useTranslation();
   const [index, setIndex] = useState(0);
   const categoria = datosPlatos.especialidades;
   const [esMovil, setEsMovil] = useState(window.innerWidth < 768);
@@ -53,7 +54,7 @@ function Home() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.2, ease: "easeOut" }}
           >
-            Casa Sergio una experiencia fuera de este planeta
+            {t('home.inicio')}
           </motion.p>
         </div>
       </div>
@@ -65,7 +66,7 @@ function Home() {
         >
           <div className="absolute inset-0 bg-black/60 group-hover:bg-black/40 transition-colors duration-500"></div>
           <p className="text-white text-4xl md:text-6xl font-bold text-center drop-shadow-2xl italic z-10 relative">
-            70% De la Vía Láctea
+            {t('home.70')}
           </p>
         </div>
         <div
@@ -74,14 +75,14 @@ function Home() {
         >
           <div className="absolute inset-0 bg-black/70 group-hover:bg-black/50 transition-colors duration-500"></div>
           <p className="text-white text-2xl md:text-5xl font-bold text-center drop-shadow-2xl italic z-10 relative px-4">
-            30% Terrestre
+            {t('home.30')}
           </p>
         </div>
       </div>
 
       <div className="w-full py-20 flex flex-col items-center bg-slate-900">
         <p className="text-white text-2xl md:text-3xl font-bold text-center mb-10 italic">
-          Estas son las especialidades de la casa
+          {t('home.especialidades')}
         </p>
 
         {/* CONTENEDOR RELATIVO */}

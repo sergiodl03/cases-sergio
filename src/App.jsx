@@ -8,17 +8,21 @@ import Carta from './pages/Carta';
 import Reservar from './pages/Reservar';
 import CercaDeTi from './pages/CercaDeTi';
 import Instalaciones from './pages/Instalaciones';
+import { useTranslation } from "react-i18next";
+
+
+const misEnlaces = [
+  { labelKey: 'navbar.inicio', url: '/' },
+  { labelKey: 'navbar.carta', url: '/carta' },
+  { labelKey: 'navbar.cerca de ti', url: '/cercaDeTi' }, 
+  { labelKey: 'navbar.instalaciones', url: '/instalaciones' },
+  { labelKey: 'navbar.reservar', url: '/reservar', isButton: true }
+];
 
 function App() {
 
-const misEnlaces = [
-{ label: 'Home', url: '/' },
-{ label: 'Carta', url: '/carta' },
-{ label: 'Cerca De Ti', url: '/cercaDeTi' },
-{ label: 'Instalaciones', url: '/instalaciones' },
-{ label: 'Reservar', url: '/reservar' }
+const { t, i18n } = useTranslation();
 
-];
 
 return (
 <div className="flex flex-col min-h-screen">

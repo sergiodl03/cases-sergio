@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "inicio": "Inicio",
+    "carta": "Carta",
+    "cerca de ti": "Cerca de ti",
+    "instalaciones": "instalaciones",
+    "reservar": "reservar"
+  },
+  "home": {
+    "inicio": "Casa Sergio una experiencia fuera de este planeta",
+    "70": "70% De la Vía Láctea",
+    "30": "30% Terrestre",
+    "especialidades": "Estas son las especialidades de la casa"
+  },
+  "instalaciones": {
+    "titulo1": "Nuestras",
+    "titulo2": "instalaciones",
+    "ninos1": "Zona para los niños",
+    "ninos2": "Diversión Segura",
+    "ninos3": "Un espacio diseñado para que los más pequeños disfruten mientras tú te relajas.",
+    "perros1": "Zona para los perros",
+    "perros2": "Zona para los perros",
+    "perros3": "Tu mejor amigo es bienvenido. Contamos con espacios adaptados para que no se quede en casa.",
+    "exterior1": "Exterior",
+    "exterior2": "La Terraza",
+    "exterior3": "Ambiente al aire libre ideal para disfrutar del sol o de las noches estrelladas.",
+    "interior1": "Interior",
+    "interior2": "La barra",
+    "interior3": "Nuestra barra es el alma del local, donde preparamos tus bebidas favoritas al momento."
+  },
+  "categorias": {
+  "picar": "Para Picar",
+  "platos": "Platos Principales",
+  "postres": "Postres",
+  "especialidades": "Especialidades"
+}
+}
