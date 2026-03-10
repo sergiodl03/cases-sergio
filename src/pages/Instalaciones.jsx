@@ -6,28 +6,31 @@ function Instalaciones() {
   return (
     <div>
       <h2 className="mt-5 text-white text-3xl md:text-5xl font-black text-center drop-shadow-lg italic mb-8 uppercase tracking-tighter">
-        {t("instalaciones.titulo1")} <span className="text-indigo-500">{t("instalaciones.titulo2")}</span>
+        {t("instalaciones.titulo1")}{" "}
+        <span className="text-indigo-500">{t("instalaciones.titulo2")}</span>
       </h2>
 
-      {/* BLOQUE 1: PARQUE DE BOLAS */}
-      <div className="flex">
+      {/* BLOQUE 1 (Versión Responsive sugerida) */}
+      <div className="flex flex-col md:flex-row relative overflow-hidden">
+        {/* Imagen: En móvil ocupa todo el ancho, en PC el 60% */}
         <div
-          className="w-[50%] bg-cover bg-center h-150 flex items-center justify-center text-center p-4"
+          className="w-full md:w-[60%] bg-cover bg-center h-80 md:h-150 flex items-center justify-center text-center p-4"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("/guarderia.avif")`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/guarderia.avif")`,
           }}
         >
-          <h3 className="text-white text-3xl font-black italic uppercase">
-           {t("instalaciones.ninos1")}
+          <h3 className="text-white text-3xl md:text-4xl font-black italic uppercase drop-shadow-lg">
+            {t("instalaciones.ninos1")}
           </h3>
         </div>
-        <div className="w-[50%] h-150 flex flex-col items-end justify-center p-10">
-          {/* El div hijo con fondo oscuro y alineación a la derecha */}
-          <div className="bg-black/40 p-8 border-indigo-500 text-right max-w-md shadow-2xl backdrop-blur-sm">
-            <h4 className="text-indigo-500 text-2xl font-black uppercase italic mb-4">
+
+        {/* Contenido: En móvil sin margen negativo, en PC invade la imagen */}
+        <div className="w-full md:w-[40%] md:h-150 flex items-center justify-start md:-ml-32 z-10 p-4 md:p-0">
+          <div className="flex flex-col items-center justify-center text-center h-fit min-h-[250px] md:min-h-[300px] bg-black/40 p-8 max-w-md shadow-2xl backdrop-blur-md">
+            <h4 className="text-indigo-500 text-xl md:text-2xl font-black uppercase italic mb-4">
               {t("instalaciones.ninos2")}
             </h4>
-            <p className="text-white text-lg">
+            <p className="text-white text-base md:text-lg leading-relaxed">
               {t("instalaciones.ninos3")}
             </p>
           </div>
@@ -37,24 +40,27 @@ function Instalaciones() {
       <div className="h-30"></div>
 
       {/* BLOQUE 2: PERROS */}
-      <div className="flex">
-        <div className="w-[50%] h-150 flex flex-col items-start justify-center p-10 text-center text-right">
-          <div className="bg-black/40 p-8 border-indigo-500 text-left max-w-md shadow-2xl backdrop-blur-sm">
+      <div className="flex flex-col md:flex-row relative overflow-hidden">
+        {/* Bloque Contenido (ahora a la izquierda, ocupando el 40% para que la imagen luzca más) */}
+        <div className="w-full md:w-[40%] h-150 flex items-center justify-end -mr-32 z-10">
+          <div className="flex flex-col items-center justify-center text-center h-fit min-h-[300px] bg-black/40 p-8 max-w-md shadow-2xl backdrop-blur-md">
             <h4 className="text-indigo-500 text-2xl font-black uppercase italic mb-4">
               {t("instalaciones.perros2")}
             </h4>
-            <p className="text-white text-lg">
+            <p className="text-white text-lg leading-relaxed">
               {t("instalaciones.perros3")}
             </p>
           </div>
         </div>
+
+        {/* Bloque Imagen (ahora a la derecha, ocupando el 60%) */}
         <div
-          className="w-[50%] bg-cover bg-center h-150 flex items-center justify-center text-center p-4"
+          className="w-full md:w-[60%] bg-cover bg-center h-150 flex items-center justify-center text-center p-4"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("/perros1.avif")`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/perros1.avif")`,
           }}
         >
-          <h3 className="text-white text-3xl font-black italic uppercase">
+          <h3 className="text-white text-4xl font-black italic uppercase drop-shadow-lg">
             {t("instalaciones.perros1")}
           </h3>
         </div>
@@ -63,23 +69,26 @@ function Instalaciones() {
       <div className="h-30"></div>
 
       {/* BLOQUE 3: TERRAZA */}
-      <div className="flex">
+      <div className="flex flex-col md:flex-row relative overflow-hidden">
+        {/* Bloque Imagen (60%) */}
         <div
-          className="w-[50%] bg-cover bg-center h-150 flex items-center justify-center text-center p-4"
+          className="w-full md:w-[60%] bg-cover bg-center h-150 flex items-center justify-center text-center p-4"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("/terraza.avif")`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/terraza.avif")`,
           }}
         >
-          <h3 className="text-white text-3xl font-black italic uppercase">
+          <h3 className="text-white text-4xl font-black italic uppercase drop-shadow-lg">
             {t("instalaciones.exterior1")}
           </h3>
         </div>
-        <div className="w-[50%] h-150 flex flex-col items-end justify-center p-10 text-center">
-          <div className="bg-black/40 p-8 border-indigo-500 text-right max-w-md shadow-2xl backdrop-blur-sm">
+
+        {/* Bloque Contenido (40%) que invade la imagen desde la derecha */}
+        <div className="w-full md:w-[40%] h-150 flex items-center justify-start -ml-32 z-10">
+          <div className="flex flex-col items-center justify-center text-center h-fit min-h-[300px] bg-black/40 p-8 max-w-md shadow-2xl backdrop-blur-md">
             <h4 className="text-indigo-500 text-2xl font-black uppercase italic mb-4">
               {t("instalaciones.exterior2")}
             </h4>
-            <p className="text-white text-lg">
+            <p className="text-white text-lg leading-relaxed">
               {t("instalaciones.exterior3")}
             </p>
           </div>
@@ -89,24 +98,27 @@ function Instalaciones() {
       <div className="h-30"></div>
 
       {/* BLOQUE 4: BARRA */}
-      <div className="flex">
-        <div className="w-[50%] h-150 flex flex-col items-start justify-center p-10 text-center">
-          <div className="bg-black/40 p-8 border-indigo-500 text-left max-w-md shadow-2xl backdrop-blur-sm">
+      <div className="flex flex-col md:flex-row relative overflow-hidden">
+        {/* Bloque Contenido (40%) - Invade hacia la derecha */}
+        <div className="w-full md:w-[40%] h-150 flex items-center justify-end -mr-32 z-10">
+          <div className="flex flex-col items-center justify-center text-center h-fit min-h-[300px] bg-black/40 p-8 max-w-md shadow-2xl backdrop-blur-md">
             <h4 className="text-indigo-500 text-2xl font-black uppercase italic mb-4">
               {t("instalaciones.interior2")}
             </h4>
-            <p className="text-white text-lg">
+            <p className="text-white text-lg leading-relaxed">
               {t("instalaciones.interior3")}
             </p>
           </div>
         </div>
+
+        {/* Bloque Imagen (60%) */}
         <div
-          className="w-[50%] bg-cover bg-center h-150 flex items-center justify-center text-center p-4"
+          className="w-full md:w-[60%] bg-cover bg-center h-150 flex items-center justify-center text-center p-4"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("/barra.avif")`,
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/barra.avif")`,
           }}
         >
-          <h3 className="text-white text-3xl font-black italic uppercase">
+          <h3 className="text-white text-4xl font-black italic uppercase drop-shadow-lg">
             {t("instalaciones.interior1")}
           </h3>
         </div>
