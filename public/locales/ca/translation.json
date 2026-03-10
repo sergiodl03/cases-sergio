@@ -4,13 +4,34 @@
     "carta": "Carta",
     "cerca de ti": "A prop teu",
     "instalaciones": "Instal·lacions",
-    "reservar": "Reservar"
+    "reservar": "Reservar",
+    "trabajaConNosotros": "Treballa amb nosaltres"
   },
   "home": {
     "inicio": "Casa Sergio, una experiència fora d'aquest planeta",
     "70": "70% De la Via Làctia",
     "30": "30% Terrestre",
     "especialidades": "Aquestes són les especialitats de la casa"
+  },
+  "footer": {
+    "titulo1": "Casa",
+    "titulo2": "Sergio",
+    "gastronomia": "Gastronomia Interestel·lar",
+    "contacto": "Contacte",
+    "ubicacion": "Passeig de la Independència, 10, Saragossa",
+    "aviso": "Avís Legal",
+    "privacidad": "Privadesa",
+    "horarios": "Horaris",
+    "mediodia": "Migdia",
+    "noche": "Nit",
+    "horas": "Obert tots els dies",
+    "unirte": "Et vols unir?",
+    "envio": "Envia'ns el teu CV i et trucarem quan necessitem reforços per a la nostra tripulació.",
+    "nombre": "Nom Complet",
+    "email": "Correu electrònic",
+    "pdf": "Document PDF",
+    "cv": "Enviar CV",
+    "derechos": "Tots els drets reservats"
   },
   "instalaciones": {
     "titulo1": "Les nostres",

@@ -8,6 +8,7 @@ import Carta from './pages/Carta';
 import Reservar from './pages/Reservar';
 import CercaDeTi from './pages/CercaDeTi';
 import Instalaciones from './pages/Instalaciones';
+import TrabajaConNosotros from './pages/TrabajaConNosotros';
 import { useTranslation } from "react-i18next";
 
 

@@ -4,13 +4,34 @@
     "carta": "Carta",
     "cerca de ti": "Cerca de ti",
     "instalaciones": "instalaciones",
-    "reservar": "reservar"
+    "reservar": "reservar",
+    "trabajaConNosotros": "Trabaja con nosotros"
   },
   "home": {
     "inicio": "Casa Sergio una experiencia fuera de este planeta",
     "70": "70% De la Vía Láctea",
     "30": "30% Terrestre",
     "especialidades": "Estas son las especialidades de la casa"
+  },
+  "footer": {
+    "titulo1": "Casa",
+    "titulo2": "Sergio",
+    "gastronomia": "Gastronomía Interestelar",
+    "contacto": "Contacto",
+    "ubicacion": "Paseo de la Independencia, 10, Zaragoza",
+    "aviso": "Aviso Legal",
+    "privacidad": "Privacidad",
+    "horarios": "Horarios",
+    "mediodia": "Mediodia",
+    "noche": "Noche",
+    "horas": "Abierto todos los dias",
+    "unirte": "¿Quieres unirte?",
+    "envio": "Envíanos tu CV y te llamaremos cuando necesitemos refuerzos.",
+    "nombre": "Nombre Completo",
+    "email": "Email",
+    "pdf": "Documento PDF",
+    "cv": "Enviar CV",
+    "derechos": "Todos los derechos reservados"
   },
   "instalaciones": {
     "titulo1": "Nuestras",

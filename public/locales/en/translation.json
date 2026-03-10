@@ -4,13 +4,34 @@
     "carta": "Menu",
     "cerca de ti": "Location",
     "instalaciones": "Facilities",
-    "reservar": "Book Now"
+    "reservar": "Book Now",
+    "trabajaConNosotros": "Work with us"
   },
   "home": {
     "inicio": "Casa Sergio: an experience out of this world",
     "70": "70% Milky Way",
     "30": "30% Terrestrial",
     "especialidades": "These are the house specialties"
+  },
+  "footer": {
+    "titulo1": "Casa",
+    "titulo2": "Sergio",
+    "gastronomia": "Interstellar Gastronomy",
+    "contacto": "Contact",
+    "ubicacion": "Paseo de la Independencia, 10, Zaragoza",
+    "aviso": "Legal Notice",
+    "privacidad": "Privacy Policy",
+    "horarios": "Opening Hours",
+    "mediodia": "Lunch",
+    "noche": "Dinner",
+    "horas": "Open every day",
+    "unirte": "Want to join us?",
+    "envio": "Send us your CV and we'll call you when we need reinforcements for our crew.",
+    "nombre": "Full Name",
+    "email": "Email Address",
+    "pdf": "PDF Document",
+    "cv": "Send CV",
+    "derechos": "All rights reserved"
   },
   "instalaciones": {
     "titulo1": "Our",

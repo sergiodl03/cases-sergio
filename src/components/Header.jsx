@@ -126,6 +126,17 @@ const Header = ({ links }) => {
           >
             ES
           </button>
+          <span className="text-white/20">|</span>
+          <button
+            className={`text-xs font-bold transition-colors ${
+              i18n.resolvedLanguage === "ca"
+                ? "text-indigo-400 underline underline-offset-4"
+                : "text-white/60 hover:text-white"
+            }`}
+            onClick={() => i18n.changeLanguage("ca")}
+          >
+            CA
+          </button>
         </div>
       </div>
     </nav>
