@@ -57,6 +57,13 @@ const Header = ({ links }) => {
             >
               ES
             </button>
+             <span className="text-white/20">|</span>
+            <button
+              className={`text-xs ${i18n.language === "ca" ? "text-indigo-400" : "text-white"}`}
+              onClick={() => i18n.changeLanguage("ca")}
+            >
+              CA
+            </button>
           </div>
         </div>
 

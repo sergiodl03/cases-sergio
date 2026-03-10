@@ -1,0 +1,157 @@
+{
+  "picar": [
+    {
+      "nombre": "Patates Braves Galàctiques",
+      "precio": "6.50€",
+      "descripcion": "Triple cocció amb salsa de xilis de Mart i escuma d'allioli lunar.",
+      "imagen": "https://images.unsplash.com/photo-1573014133075-3293112a9741?w=600",
+      "alergenos": "Ou"
+    },
+    {
+      "nombre": "Croquetes de Saturn",
+      "precio": "8.50€",
+      "descripcion": "Farcides de pernil ibèric amb anells de ceba cruixent i emulsió de tòfona.",
+      "imagen": "https://images.unsplash.com/photo-1562967914-608f82629710?w=600",
+      "alergenos": "Gluten, Lactis, Ou"
+    },
+    {
+      "nombre": "Nachos de la Nebulosa",
+      "precio": "9.50€",
+      "descripcion": "Totopos de blat de moro blau amb xili de carn estel·lar, guacamole i formatge fos.",
+      "imagen": "https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?w=600",
+      "alergenos": "Lactis"
+    },
+    {
+      "nombre": "Calamars en Òrbita",
+      "precio": "11.00€",
+      "descripcion": "A la romana amb un to de llima i maionesa de tinta de calamar.",
+      "imagen": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600",
+      "alergenos": "Gluten, Mol·luscs, Ou"
+    }
+  ],
+  "platos": [
+    {
+      "nombre": "Risotto de Júpiter",
+      "precio": "14.50€",
+      "descripcion": "Arròs cremós amb bolets del bosc fosc, parmesà i pluja de pols d'or.",
+      "imagen": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600",
+      "alergenos": "Lactis"
+    },
+    {
+      "nombre": "Entrecot de Mart",
+      "precio": "19.00€",
+      "descripcion": "300g de carn madurada a la brasa amb sal volcànica i pebrots del padró.",
+      "imagen": "https://images.unsplash.com/photo-1546241072-48010ad2862c?w=600",
+      "alergenos": ""
+    },
+    {
+      "nombre": "Salmó Supernova",
+      "precio": "16.50€",
+      "descripcion": "Salmó marinat en soja i mel sobre llit d'espàrrecs i puré de pèsols.",
+      "imagen": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600",
+      "alergenos": "Peix, Soja"
+    },
+    {
+      "nombre": "Pasta Forat Negre",
+      "precio": "13.00€",
+      "descripcion": "Tagliatelle al nero di seppia amb gambes a l'allet i tomàquets cherry.",
+      "imagen": "https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600",
+      "alergenos": "Gluten, Crustacis, Mol·luscs"
+    },
+    {
+      "nombre": "Hamburguesa Interestel·lar",
+      "precio": "14.00€",
+      "descripcion": "Vaca vella, formatge cheddar fos, bacó cruixent i ceba caramel·litzada.",
+      "imagen": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600",
+      "alergenos": "Gluten, Lactis"
+    }
+  ],
+  "postres": [
+    {
+      "nombre": "Pastís de Formatge Lunar",
+      "precio": "6.00€",
+      "descripcion": "Textura cremosa amb base de galeta de meteorit i coulis de fruits vermells.",
+      "imagen": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600",
+      "alergenos": "Lactis, Gluten, Ou"
+    },
+    {
+      "nombre": "Coulant Forat Negre",
+      "precio": "7.00€",
+      "descripcion": "Pa de pessic de xocolata fosa amb gelat de vainilla de Madagascar.",
+      "imagen": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=600",
+      "alergenos": "Lactis, Gluten, Ou"
+    },
+    {
+      "nombre": "Mousse de Via Làctia",
+      "precio": "5.50€",
+      "descripcion": "Tres textures de xocolata: blanca, llet i negra pura al 70%.",
+      "imagen": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=600",
+      "alergenos": "Lactis, Soja"
+    },
+    {
+      "nombre": "Fruita de la Galàxia",
+      "precio": "5.00€",
+      "descripcion": "Selecció de fruites de temporada amb un to de menta i llima.",
+      "imagen": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?w=600",
+      "alergenos": ""
+    }
+  ],
+  "especialidades": [
+    {
+      "nombre": "Meteorit de Carbó",
+      "precio": "12.00€",
+      "descripcion": "Bunyols de bacallà tempuritzats amb tinta de calamar per a un negre mat profund.",
+      "tipo": "Per Picar",
+      "imagen": "buñuelos.jpg",
+      "alergenos": "Gluten, Peix, Mol·luscs"
+    },
+    {
+      "nombre": "Nebulosa de Fum i Nitrogen",
+      "precio": "18.00€",
+      "descripcion": "Sutxi (ceviche) de peix mantega que canvia de color segons el pH.",
+      "tipo": "Principal",
+      "imagen": "nebulosa.jpg",
+      "alergenos": "Peix"
+    },
+    {
+      "nombre": "Esfera Interestel·lar",
+      "precio": "9.50€",
+      "descripcion": "Xocolata blanca pintada amb aerògraf en tons purpures i magentes.",
+      "tipo": "Postre",
+      "imagen": "esferas.jpg",
+      "alergenos": "Lactis, Soja"
+    },
+    {
+      "nombre": "Anells de Saturn",
+      "precio": "10.00€",
+      "descripcion": "Calamars en tempura amb emulsió de iuzu solar.",
+      "tipo": "Per Picar",
+      "imagen": "anillos.webp",
+      "alergenos": "Gluten, Mol·luscs"
+    },
+    {
+      "nombre": "Explosió Supernova",
+      "precio": "21.00€",
+      "descripcion": "Tataki de tonyina vermella amb sèsam negre i reducció de fruits del bosc àcids.",
+      "tipo": "Principal",
+      "imagen": "supernova.jpg",
+      "alergenos": "Peix, Sèsam, Soja"
+    },
+    {
+      "nombre": "Pop Galàctic",
+      "precio": "19.50€",
+      "descripcion": "Cama de pop a la brasa sobre escuma de patata violeta i oli de pebre vermell de la Vera.",
+      "tipo": "Principal",
+      "imagen": "pulpo.jpg",
+      "alergenos": "Mol·luscs"
+    },
+    {
+      "nombre": "Nucli de Júpiter",
+      "precio": "8.50€",
+      "descripcion": "Coulant de xocolata amb centre líquid de caramell salat i gelat d'estela de vainilla.",
+      "tipo": "Postre",
+      "imagen": "nucleo.jpg",
+      "alergenos": "Lactis, Gluten, Ou"
+    }
+  ]
+}

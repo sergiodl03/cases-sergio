@@ -1,0 +1,67 @@
+{
+  "navbar": {
+    "inicio": "Inici",
+    "carta": "Carta",
+    "cerca de ti": "A prop teu",
+    "instalaciones": "Instal·lacions",
+    "reservar": "Reservar"
+  },
+  "home": {
+    "inicio": "Casa Sergio, una experiència fora d'aquest planeta",
+    "70": "70% De la Via Làctia",
+    "30": "30% Terrestre",
+    "especialidades": "Aquestes són les especialitats de la casa"
+  },
+  "instalaciones": {
+    "titulo1": "Les nostres",
+    "titulo2": "instal·lacions",
+    "ninos1": "Zona per als nens",
+    "ninos2": "Diversió Segura",
+    "ninos3": "Un espai dissenyat perquè els més petits gaudeixin mentre tu et relaxes.",
+    "perros1": "Zona per als gossos",
+    "perros2": "Zona per als gossos",
+    "perros3": "El teu millor amic és benvingut. Comptem amb espais adaptats perquè no es quedi a casa.",
+    "exterior1": "Exterior",
+    "exterior2": "La Terrassa",
+    "exterior3": "Ambient a l'aire lliure ideal per gaudir del sol o de les nits estrellades.",
+    "interior1": "Interior",
+    "interior2": "La barra",
+    "interior3": "La nostra barra és l'ànima del local, on preparem les teves begudes preferides al moment."
+  },
+  "categorias": {
+    "picar": "Per Picar",
+    "platos": "Plats Principals",
+    "postres": "Postres",
+    "especialidades": "Especialitats"
+  },
+  "reservar": {
+    "titulo": "Reserva al Nostre Restaurant",
+    "nombre": "Nom",
+    "apellidos": "Cognoms",
+    "email": "Email",
+    "teléfono": "Telèfon",
+    "fecha": "Data",
+    "horario": "Migdia o Nit",
+    "comensales": "Núm. de Comensals",
+    "extra": "Alguna informació extra (al·lèrgies o intoleràncies)",
+    "personas1": "1 Persona",
+    "personas2": "2 Persones",
+    "personas3": "3 Persones",
+    "personas4": "4 Persones",
+    "personas5": "5+ Persones",
+    "comida": "Selecciona hora de Dinar",
+    "cena": "Selecciona hora de Sopar",
+    "hora": "Tria hora...",
+    "reserva": "Confirmar Reserva",
+    "opcion": "Tria una opció",
+    "noche": "Nit",
+    "mediodia": "Migdia"
+  },
+  "cercaDeTi": {
+    "titulo1": "Locals",
+    "titulo2": "propers",
+    "gps": "Rastrejant senyal GPS...",
+    "ruta": "Traçar ruta estel·lar",
+    "lugar": "Ets aquí"
+  }
+}

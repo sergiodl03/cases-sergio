@@ -1,0 +1,70 @@
+{
+  "sedes": [
+    {
+      "id": 1,
+      "nombre": "Casa Sergio - Matriu Cerç",
+      "ciudad": "Saragossa",
+      "direccion": "Paseo de la Independencia, 10",
+      "coordenadas": {
+        "latitud": 41.6523,
+        "longitud": -0.8814
+      },
+      "descripcion": "La nostra seu fundacional. Un refugi futurista on la calor de la llar es barreja amb l'avantguarda de l'espai."
+    },
+    {
+      "id": 2,
+      "nombre": "Casa Sergio - Port Estel·lar",
+      "ciudad": "València",
+      "direccion": "Marina de València, s/n",
+      "coordenadas": {
+        "latitud": 39.4699,
+        "longitud": -0.3763
+      },
+      "descripcion": "Sabors del Mediterrani elevats a la desena potència en un entorn envidrat davant del mar."
+    },
+    {
+      "id": 3,
+      "nombre": "Casa Sergio - Dom Central",
+      "ciudad": "Madrid",
+      "direccion": "Gran Vía, 28",
+      "coordenadas": {
+        "latitud": 40.4168,
+        "longitud": -3.7038
+      },
+      "descripcion": "L'experiència gastronòmica més frenètica i cosmopolita al cor bategant de la península."
+    },
+    {
+      "id": 4,
+      "nombre": "Casa Sergio - Far Galàctic",
+      "ciudad": "A Coruña",
+      "direccion": "Paseo Marítimo, 1",
+      "coordenadas": {
+        "latitud": 43.3623,
+        "longitud": -8.4115
+      },
+      "descripcion": "Un racó místic al nord on els productes de l'oceà es preparen amb tècniques d'un altre planeta."
+    },
+    {
+      "id": 5,
+      "nombre": "Casa Sergio - Oasi Nebulosa",
+      "ciudad": "Sevilla",
+      "direccion": "Plaza de la Encarnación, s/n",
+      "coordenadas": {
+        "latitud": 37.3891,
+        "longitud": -5.9845
+      },
+      "descripcion": "On la tradició andalusa es troba amb la tecnologia sota el cel estrellat del sud."
+    },
+    {
+      "id": 6,
+      "nombre": "Casa Sergio - Terminal Marítima",
+      "ciudad": "Barcelona",
+      "direccion": "Carrer de la Marina, 19",
+      "coordenadas": {
+        "latitud": 41.3888,
+        "longitud": 2.1934
+      },
+      "descripcion": "Un nexe d'unió entre el cosmos i el Mediterrani. Arquitectura de vidre i sabors que orbiten al voltant del port."
+    }
+  ]
+}
