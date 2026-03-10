@@ -5,7 +5,7 @@ import L from "leaflet";
 import icon from "leaflet/dist/images/marker-icon.png";
 import iconShadow from "leaflet/dist/images/marker-shadow.png";
 
-import datosSedes from "../components/sedes.json";
+import { useTranslation } from "react-i18next";
 
 // 1. Definimos el icono para el USUARIO (Azul con sombra)
 const UserIcon = L.icon({
@@ -28,9 +28,12 @@ const SedeIcon = L.icon({
 });
 
 function CercaDeTi() {
+  const { t, i18n } = useTranslation("sedes");
+  const { t:ti } = useTranslation();
+  const datosTraducidos = i18n.getResourceBundle(i18n.language, "sedes");
   const [coordinates, setCoordinates] = useState(null);
   const [loading, setLoading] = useState(true);
-  const sedes = datosSedes.sedes;
+  const sedes = datosTraducidos.sedes;
 
   // Función matemática: Fórmula de Haversine para calcular distancia real en km
   const calcularDistancia = (lat1, lon1, lat2, lon2) => {
@@ -68,7 +71,7 @@ function CercaDeTi() {
       <div className="w-full h-screen bg-slate-950 flex flex-col items-center justify-center space-y-4">
         <div className="w-12 h-12 border-4 border-indigo-500 border-t-transparent rounded-full animate-spin"></div>
         <p className="text-indigo-400 font-medium animate-pulse tracking-widest uppercase text-sm">
-          Rastreando señal GPS...
+          {ti("cercaDeTi.gps")}
         </p>
       </div>
     );
@@ -112,7 +115,7 @@ function CercaDeTi() {
             {/* Marcador del Usuario */}
             <Marker position={coordinates} icon={UserIcon}>
               <Tooltip  direction="top" offset={[0, -10]}>
-                Estás aquí
+                {ti("cercaDeTi.lugar")}
               </Tooltip>
             </Marker>
             
@@ -137,7 +140,7 @@ function CercaDeTi() {
       {/* LISTADO DE SEDES */}
       <div className="mt-10">
         <h2 className="text-white text-3xl md:text-5xl font-black text-center drop-shadow-lg italic mb-8 uppercase tracking-tighter">
-          Locales <span className="text-indigo-500">cercanos</span>
+          {ti("cercaDeTi.titulo1")} <span className="text-indigo-500">{ti("cercaDeTi.titulo2")}</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
@@ -158,7 +161,7 @@ function CercaDeTi() {
               >
                 {km && (
                   <span className="absolute top-4 right-4 bg-indigo-600 text-white text-[10px] font-bold px-3 py-1 rounded-full shadow-lg shadow-indigo-500/20">
-                    A {km} km
+                     {km} km
                   </span>
                 )}
                 
@@ -186,7 +189,7 @@ function CercaDeTi() {
                   }
                   className="mt-6 w-full bg-indigo-600 hover:bg-indigo-500 text-white py-3 rounded-xl font-bold transition-all transform active:scale-95 shadow-lg shadow-indigo-600/20"
                 >
-                  Trazar ruta estelar
+                  {ti("cercaDeTi.ruta")}
                 </button>
               </div>
             );

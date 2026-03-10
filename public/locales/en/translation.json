@@ -33,7 +33,37 @@
   "platos": "Main Courses",
   "postres": "Desserts",
   "especialidades": "Specials"
-}
+  },
+  "reservar": {
+  "titulo": "Book a Table at Our Restaurant",
+  "nombre": "First Name",
+  "apellidos": "Last Name",
+  "email": "Email Address",
+  "teléfono": "Phone Number",
+  "fecha": "Date",
+  "horario": "Lunch or Dinner",
+  "comensales": "Number of Guests",
+  "extra": "Additional information (allergies or intolerances)",
+  "personas1": "1 Person",
+  "personas2": "2 People",
+  "personas3": "3 People",
+  "personas4": "4 People",
+  "personas5": "5+ People",
+  "comida": "Select Lunch time",
+  "cena": "Select Dinner time",
+  "hora": "Choose time...",
+  "reserva": "Confirm Booking",
+  "opcion": "Choose an option",
+  "noche": "Night",
+  "mediodia": "Lunch"
+  },
+  "cercaDeTi": {
+  "titulo1": "Nearby",
+  "titulo2": "locations",
+  "gps": "Tracking GPS signal...",
+  "ruta": "Plot stellar route",
+  "lugar": "You are here"
+  }
 }
   
   

@@ -33,5 +33,35 @@
   "platos": "Platos Principales",
   "postres": "Postres",
   "especialidades": "Especialidades"
-}
+  },
+  "reservar": {
+  "titulo": "Reserva en Nuestro Restaurante",
+  "nombre": "Nombre",
+  "apellidos": "Apellidos",
+  "email": "Email",
+  "teléfono": "Teléfono",
+  "fecha": "Fecha",
+  "horario": "Mediodia o Noche",
+  "comensales": "Nº de Comensales",
+  "extra": "Alguna información extra (alergias o intolerancias)",
+  "personas1": "1 Persona",
+  "personas2": "2 Personas",
+  "personas3": "3 Personas",
+  "personas4": "4 Personas",
+  "personas5": "5+ Personas",
+  "comida": "Selecciona hora de Comida",
+  "cena": "Selecciona hora de Cena",
+  "hora": "Elige hora...",
+  "reserva": "Confirmar Reserva",
+  "opcion": "Elige una opcion",
+  "noche": "Noche",
+  "mediodia": "Mediodia"
+  },
+  "cercaDeTi": {
+  "titulo1": "Locales",
+  "titulo2": "cercanos",
+  "gps": "Rastreando señal GPS...",
+  "ruta": "Trazar ruta estelar",
+  "lugar": "Estas aquí"
+  }
 }

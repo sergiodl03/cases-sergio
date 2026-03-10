@@ -1,0 +1,70 @@
+{
+  "sedes": [
+    {
+      "id": 1,
+      "nombre": "Casa Sergio - Cierzo Matrix",
+      "ciudad": "Zaragoza",
+      "direccion": "Paseo de la Independencia, 10",
+      "coordenadas": {
+        "latitud": 41.6523,
+        "longitud": -0.8814
+      },
+      "descripcion": "Our founding location. A futuristic refuge where the warmth of home blends with space-age avant-garde."
+    },
+    {
+      "id": 2,
+      "nombre": "Casa Sergio - Star Port",
+      "ciudad": "Valencia",
+      "direccion": "Marina de Valencia, s/n",
+      "coordenadas": {
+        "latitud": 39.4699,
+        "longitud": -0.3763
+      },
+      "descripcion": "Mediterranean flavors elevated to the power of ten in a glass-walled setting facing the sea."
+    },
+    {
+      "id": 3,
+      "nombre": "Casa Sergio - Central Dome",
+      "ciudad": "Madrid",
+      "direccion": "Gran Vía, 28",
+      "coordenadas": {
+        "latitud": 40.4168,
+        "longitud": -3.7038
+      },
+      "descripcion": "The most frenetic and cosmopolitan dining experience in the beating heart of the peninsula."
+    },
+    {
+      "id": 4,
+      "nombre": "Casa Sergio - Galactic Lighthouse",
+      "ciudad": "A Coruña",
+      "direccion": "Paseo Marítimo, 1",
+      "coordenadas": {
+        "latitud": 43.3623,
+        "longitud": -8.4115
+      },
+      "descripcion": "A mystical corner in the north where ocean products are prepared with techniques from another planet."
+    },
+    {
+      "id": 5,
+      "nombre": "Casa Sergio - Nebula Oasis",
+      "ciudad": "Sevilla",
+      "direccion": "Plaza de la Encarnación, s/n",
+      "coordenadas": {
+        "latitud": 37.3891,
+        "longitud": -5.9845
+      },
+      "descripcion": "Where Andalusian tradition meets technology under the starry sky of the south."
+    },
+    {
+      "id": 6,
+      "nombre": "Casa Sergio - Maritime Terminal",
+      "ciudad": "Barcelona",
+      "direccion": "Carrer de la Marina, 19",
+      "coordenadas": {
+        "latitud": 41.3888,
+        "longitud": 2.1934
+      },
+      "descripcion": "A nexus between the cosmos and the Mediterranean. Glass architecture and flavors orbiting around the harbor."
+    }
+  ]
+}

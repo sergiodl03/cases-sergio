@@ -9,7 +9,7 @@ i18n
   .use(initReactI18next) // Conecta con React
   .init({
     fallbackLng: 'es', // Si no encuentra el idioma, usa español
-    ns: ['translation', 'platos'],
+    ns: ['translation', 'platos', 'sedes'],
     defaultNS: 'translation',
     debug: false, // Cámbialo a true si quieres ver qué pasa en la consola
     interpolation: {
